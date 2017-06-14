@@ -1,15 +1,21 @@
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 3px;
+	border-bottom: 3px double #6F6E6F;
+}
+
 .result-box {
 	box-sizing: border-box;
 	padding: 20px;
-	width: 80%;
+	width: 100%;
 	text-align: center;
 	border: 1px solid #6F6E6F;
 	margin: 0 auto 20px;
-}
-
-.part-form {
-	width: 80%;
-	margin: 0 auto;
 }
 
 input[type = checkbox] {
@@ -17,12 +23,13 @@ input[type = checkbox] {
 }
 
 input[type = checkbox] + label {
-	border: 1px solid #f0831e;
 	display: inline-block;
 	box-sizing: border-box;
-	padding: 20px 10px;
-	width: 40%;
+	padding: 12px 5px;
+	width: 47%;
+	border: 1px solid #f0831e;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 input[type = checkbox]:checked + label {
@@ -30,6 +37,6 @@ input[type = checkbox]:checked + label {
 	color: white;
 }
 
-/*.part-table {
-	display: none;
-}*/
+.odd-label {
+	margin-right: 4%;
+}
