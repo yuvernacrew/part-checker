@@ -1,0 +1,35 @@
+.result-box {
+	box-sizing: border-box;
+	padding: 20px;
+	width: 80%;
+	text-align: center;
+	border: 1px solid #6F6E6F;
+	margin: 0 auto 20px;
+}
+
+.part-form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+input[type = checkbox] {
+	display: none;
+}
+
+input[type = checkbox] + label {
+	border: 1px solid #f0831e;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	width: 40%;
+	margin-bottom: 10px;
+}
+
+input[type = checkbox]:checked + label {
+	background-color: #f0831e;
+	color: white;
+}
+
+/*.part-table {
+	display: none;
+}*/
