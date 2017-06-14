@@ -34,7 +34,26 @@ input[type = checkbox] + label {
 
 input[type = checkbox]:checked + label {
 	background-color: #f0831e;
+	border: 1px solid #f0831e !important;
 	color: white;
+}
+
+.reset-btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 12px 5px;
+	width: 47%;
+	border: 1px solid #082936;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #082936;
+	color: white;
+}
+
+.btn-gray {
+	background-color: #C1C2C2;
+	border: 1px solid #C1C2C2 !important;
+	/*color: white;*/
 }
 
 .odd-label {
